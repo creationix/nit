@@ -1,15 +1,26 @@
-# Luvit Invention Toolkit
+# Node Invention Toolkit
 
-Lit is a toolkit designed to make working in the new [luvit][] 2.0 ecosystem
+
+Nit is a toolkit designed to make working in the node.js ecosystem
 easy and even fun.
 
- - Lit powers the central repository at `wss://lit.luvit.io/`.
- - Lit is used to publish new packages to the central repository.
- - Lit is used to download and install dependencies into your local tree.
- - Lit can be used to compile [luvi][] apps from folders or zip files into
+ - TODO: Nit powers the central repository at `wss://nit.creationix.com/`.
+ - Nit is used to publish new packages to the central repository.
+ - Nit is used to download and install dependencies into your local tree.
+ - TODO: Nit can be used to compile node apps from folders or zip files into
    self-executing binaries.
 
-Lit is also a luvi app and library itself and bootstraps fairly easily.
+Nit is also a [luvi](https://github.com/luvit/luvi) app and library itself and bootstraps fairly easily.
+
+
+--------------------------------------
+
+
+**NOTE**: this is a fresh fork, large portions of this still reference the upstream lit version.
+
+Everything after this is not relevent yet to this fork.
+
+-------------------------
 
 ## Installing Lit
 
@@ -411,5 +422,3 @@ newline delimited file of usernames.
 For full details read the source.  The libs folder has a nice [internal
 README](./libs/README) to get you started.
 
-[luvit]: https://github.com/luvit/luvit/
-[luvi]:https://github.com/luvit/luvi/
