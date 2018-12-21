@@ -24,7 +24,7 @@ local function makeCloser(socket)
     closed = true
     if not closer.readClosed then
       closer.readClosed = true
-      if closer.onClose() then
+      if closer.onClose then
         closer.onClose()
       end
     end
